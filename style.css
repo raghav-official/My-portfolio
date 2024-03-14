@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor:default;
+}
+.img{
+    width: 420px;
+    height: 200px;
+    padding left: 2px;
+    margin top: 50%;
+    padding top: 50%;
+    display: inline;
+}
+nav{
+    display: flex;
+    width: 84%;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display:inline-block ;
+    margin:10px;
+    padding:10;
+    color:white;
+    font-style: italic;
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+    color:red;
+    font-weight: bold;
+    font-size: 24px;
+    transition: 1s;
+    cursor: pointer;
+    border-bottom: transparent;
+}
+a:hover{
+    color:white;
+    --margin: 5px--;
+    border-bottom: 1px solid white !important;
+
+}
+h1{
+    color:white;
+    margin-left: 250px;
+    margin-top:0px;
+    font-size: 60px;
+    color: green;
+    font-style: italic;
+    font-family:'Courier New', Courier, monospace
+}
+h2{
+    color:white;
+    margin-left:250px;
+    margin-top: 50px;
+    font-size:70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3{
+    margin-left: 170px;
+    margin-top:10px;
+
+}
+.two{
+    margin-left:260px;
+    margin-top: 2px;
+    display: flex;
+}
+.skills{
+    text-align: center;
+    margin-top:  50px;
+    margin-right: 250px;
+    font-size: 50px;
+    color:red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.image{
+    display:inline;
+    height:320px;
+    width:280px;
+    border-radius: 60%;
+    margin-left: 300px;
+}
+span{
+    display:flex;
+}
+span ol {
+    display: inline-block;
+}
+.skills{
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    font-size: 65px;
+    margin-top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.languages{
+    margin-top:100px;
+    margin-bottom: 100px;
+    height:50px;
+    width:50px;
+}
+.html{
+    margin-left:50px;
+    display:inline;
+}
+.css{
+    margin-left:50px;
+}
+.js{
+    margin-left:20px;
+}
+.python{
+    margin-left:30px;
+}
+.excel{
+    margin-left:30px;
+}
+.sql{
+    margin-left:50px;
+}
+.edu{
+    margin-top: 50px;
+    margin-left: 430px;
+    font-size: 80px;
+    font-weight: bold;
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ug{
+    font-size: 40px;
+    margin-left: 40px;
+    padding: 5%;
+}
+.year{
+    font-size: 40px;
+    margin-left: 150px;
+    padding: 1%;
+}
+.skill1{
+    display: inline;
+    font-size: 30px;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    padding:0;
+}
+.skill2{
+    display: inline;
+    font-size: 30px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+.skill3{
+    display: inline;
+    font-size: 30px;
+    margin-left: 15%;
+    margin-bottom: 20px;
+}
+.skill4{
+    display: inline;
+    font-size: 30px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+.skill5{
+    display: inline;
+    font-size: 30px;
+    margin-left: 5%;
+    margin-bottom: 20px;
+}
+.skill6{
+    display: inline;
+    font-size: 30px;
+    margin-left: 5%;
+    margin-bottom: 20px;
+}
+.bhc{
+    margin-left: 20%;
+}
+.contact{
+    font-size: 60px;
+    font-family:'Times New Roman', Times, serif; 
+    margin-left:40%;
+}
+.info{
+    display: flex;
+    padding: 3%;
+}
+.icon{
+    border-radius: 95%;
+    display: inline-block;
+    height: 50px;
+    width:50px;
+    margin-left: 10%;
+}
+.text{
+    margin-left: 10px;
+    border-bottom: solid rgb(236, 25, 60);
+    color:rgb(236, 25, 60);
+    display: inline-block;
+}
+.linkedin{
+    display: flex;
+    padding: 3%;
+}
+.linkedinicon{
+    border-radius: 95%;
+    height: 50px;
+    width:50px;
+    margin-left: 10%;
+    display: inline-block;
+}
+.linkedintext{
+    margin-left: 25px;
+    border-bottom: solid rgb(236, 25, 60);
+    color:rgb(236, 25, 60);
+    display: inline-block;
+}
+.phone{
+    display: flex;
+    padding: 3%;
+    margin-left: 40px;
+}
+.ph{
+    border-radius: 95%;
+    size: 2px;
+    height: 50px;
+    width:50px;
+    margin-left: 7%;
+    display:inline-block;
+}
+.phno{
+    margin-left: 15px;
+    padding: 5px;
+    border-bottom: solid rgb(236, 25, 60);
+    color:rgb(236, 25, 60);
+    display: inline-block;
+    font-size: 30px;
+    text-decoration: none !important;
+}
+
+
+
+
+
